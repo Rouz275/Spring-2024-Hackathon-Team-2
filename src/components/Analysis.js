@@ -2,7 +2,7 @@ const Analysis = () => {
     return (
       <div className="analysis">
         <div className="analysis-content">
-          <h1 className="analysis-title">Already an investment pro? Take control of you rportfolio with stock analysis and projections!</h1>
+          <h1 className="analysis-title">Already an investment pro? Take control of you portfolio with stock analysis and projections!</h1>
           
           <div className="analysis-image">
           <img src="path/to/analysis-image.jpg" alt="Analysis" />
