@@ -2,7 +2,7 @@ const DashboardPreview = () => {
     return (
       <div className="DashboardPreview">
         <div className="DashboardPreview-content">
-          <h1 className="DashboardPreview-title">Have full transparency and control over your portfolio with you rpersonal investment dashboard</h1>
+          <h1 className="DashboardPreview-title">Have full transparency and control over your portfolio with your personal investment dashboard</h1>
           
           <div className="DashboardPreview-image">
           <img src="path/to/DashboardPreview-image.jpg" alt="Analysis" />
