@@ -12,6 +12,9 @@ const knex = require("../db/connection");
 //     return knex("observations").select("*");
 // };
 
+
+
+
 module.exports = {
     create,
     list,
