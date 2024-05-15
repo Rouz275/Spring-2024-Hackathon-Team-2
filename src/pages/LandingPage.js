@@ -1,14 +1,30 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
+import React from 'react';
+import NavBar from './components/NavBar';
+import Hero from './components/Hero';
+import DigitalAssistant from './components/DigitalAssistant';
+import DashboardPreview from './components/DashboardPreview';
+import Analysis from './components/Analysis';
+import Learn from './components/Learn';
+import Footer from './components/Footer';
 
-function LandingPage() {
-  
-
+const LandingPage = () => {
   return (
     <div>
-      <Navbar />
-    </div>
-  )
-}
+      <NavBar />
 
-export default LandingPage
+      <Hero />
+
+      <DigitalAssistant />
+
+      <DashboardPreview />
+
+      <Analysis />
+
+      <Learn />
+
+      <Footer />
+    </div>
+  );
+};
+
+export default LandingPage;
