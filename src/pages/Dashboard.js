@@ -2,8 +2,19 @@ import React from 'react'
 
 function Dashboard() {
   return (
-    <div>Dashboard</div>
-  )
-}
+    <div>
+      <NavBar />
+
+      <MyAccounts />
+
+      <MyStocks />
+
+      <ReccomendedArticles/>
+
+      <Footer />
+
+    </div>
+  );
+};
 
 export default Dashboard
